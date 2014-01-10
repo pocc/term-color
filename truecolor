@@ -3,7 +3,7 @@ Here is terminals discussions:
 Now supporting truecolor:
 
 * st (from suckless) -  http://lists.suckless.org/dev/1307/16688.html
-* konsole (already fixed)  https://bugs.kde.org/show_bug.cgi?id=138740
+* konsole (already fixed) - https://bugs.kde.org/show_bug.cgi?id=107487
 * all libvte based terminals:  https://bugzilla.gnome.org/show_bug.cgi?id=704449
 * sakura  https://bugs.launchpad.net/sakura/+bug/1202564
 * Also iterm2 have support for truecolor. 
