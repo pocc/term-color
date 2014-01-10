@@ -1,0 +1,22 @@
+Here is terminals discussions:
+
+Now supporting truecolor:
+* st (from suckless) -  http://lists.suckless.org/dev/1307/16688.html
+* konsole (already fixed)  https://bugs.kde.org/show_bug.cgi?id=138740
+* all libvte based terminals:  https://bugzilla.gnome.org/show_bug.cgi?id=704449
+* sakura  https://bugs.launchpad.net/sakura/+bug/1202564
+* Also iterm2 have support for truecolor. 
+
+Not supporting truecolor:
+* urxvt -  http://lists.schmorp.de/pipermail/rxvt-unicode/2013q3/001826.html 
+* mlterm - http://sourceforge.net/mailarchive/message.php?msg_id=31828705
+
+Here is another console programs discussion:
+* mutt - http://dev.mutt.org/trac/ticket/3674
+* mc - http://www.midnight-commander.org/ticket/3145#comment:1
+* s-lang library - http://mailman.jedsoft.org/pipermail/slang-users-l/2014/000798.html
+* ncurses library - https://lists.gnu.org/archive/html/bug-ncurses/2013-10/msg00007.html
+* mcabber - https://bitbucket.org/McKael/mcabber-crew/issue/126/support-for-true-color-16-millions-colors
+* emacs - http://emacs.1067599.n5.nabble.com/RFC-Add-tty-True-Color-support-td299962.html
+* vim - https://bitbucket.org/ZyX_I/vim/commits/5e3877f
+* tig - https://github.com/jonas/tig/issues/227
