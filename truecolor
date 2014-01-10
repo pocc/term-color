@@ -1,6 +1,7 @@
 Here is terminals discussions:
 
 Now supporting truecolor:
+
 * st (from suckless) -  http://lists.suckless.org/dev/1307/16688.html
 * konsole (already fixed)  https://bugs.kde.org/show_bug.cgi?id=138740
 * all libvte based terminals:  https://bugzilla.gnome.org/show_bug.cgi?id=704449
@@ -8,10 +9,13 @@ Now supporting truecolor:
 * Also iterm2 have support for truecolor. 
 
 Not supporting truecolor:
+
 * urxvt -  http://lists.schmorp.de/pipermail/rxvt-unicode/2013q3/001826.html 
 * mlterm - http://sourceforge.net/mailarchive/message.php?msg_id=31828705
 
+
 Here is another console programs discussion:
+
 * mutt - http://dev.mutt.org/trac/ticket/3674
 * mc - http://www.midnight-commander.org/ticket/3145#comment:1
 * s-lang library - http://mailman.jedsoft.org/pipermail/slang-users-l/2014/000798.html
