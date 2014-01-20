@@ -8,10 +8,15 @@ Now supporting truecolor:
 * sakura  https://bugs.launchpad.net/sakura/+bug/1202564
 * Also iterm2 have support for truecolor. 
 
+Parsing ANSI color sequences, but approximating them to 256 palette:
+
+* xterm
+* mlterm - http://sourceforge.net/mailarchive/message.php?msg_id=31828705
+
+
 Not supporting truecolor:
 
 * urxvt -  http://lists.schmorp.de/pipermail/rxvt-unicode/2013q3/001826.html 
-* mlterm - http://sourceforge.net/mailarchive/message.php?msg_id=31828705
 * Terminlogy (E17) - https://phab.enlightenment.org/T746
 
 
