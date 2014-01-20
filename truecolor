@@ -5,8 +5,8 @@ Now supporting truecolor:
 * st (from suckless) -  http://lists.suckless.org/dev/1307/16688.html
 * konsole (already fixed) - https://bugs.kde.org/show_bug.cgi?id=107487
 * all libvte based terminals:  https://bugzilla.gnome.org/show_bug.cgi?id=704449
-* sakura  https://bugs.launchpad.net/sakura/+bug/1202564
-* Also iterm2 have support for truecolor. 
+* sakura - https://bugs.launchpad.net/sakura/+bug/1202564
+* iterm2 - https://code.google.com/p/iterm2/issues/detail?id=218
 
 Parsing ANSI color sequences, but approximating them to 256 palette:
 
