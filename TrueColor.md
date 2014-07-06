@@ -72,6 +72,12 @@ Note about colour differences: a) RGB axes are not orthogonal, so you cannot use
 * [fbcon](https://www.kernel.org/doc/Documentation/fb/fbcon.txt) (from linux kernel) - https://bugzilla.kernel.org/show_bug.cgi?id=79551
 * FreeBSD console - https://bugs.freebsd.org/bugzilla/show_bug.cgi?id=191652
 
+Terminal multiplexers
+---------------------
+
+* [tmux](http://tmux.sourceforge.net/) - https://www.mail-archive.com/tmux-users@lists.sourceforge.net/msg04720.html
+* screen
+
 Here are another console programs discussions:
 ============================================
 
