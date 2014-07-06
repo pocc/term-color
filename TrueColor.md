@@ -85,7 +85,7 @@ Here are another console programs discussions:
 ============================================
 
 * mutt - http://dev.mutt.org/trac/ticket/3674
-* mc - http://www.midnight-commander.org/ticket/3145#comment:1
+* mc - http://www.midnight-commander.org/ticket/3145#comment:1 - demo patches attached
 * s-lang library - http://lists.jedsoft.org/lists/slang-users/2014/0000001.html
 * ncurses library - https://lists.gnu.org/archive/html/bug-ncurses/2013-10/msg00007.html
 * mcabber - https://bitbucket.org/McKael/mcabber-crew/issue/126/support-for-true-color-16-millions-colors
