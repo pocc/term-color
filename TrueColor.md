@@ -46,6 +46,7 @@ Now **supporting** truecolor
     * **libvte**-based [ROXTerm](http://roxterm.sourceforge.net/)
     * **libvte**-based [evilvte](http://www.calno.com/evilvte/)
     * **libvte**-based [Termit](https://github.com/nonstop/termit)
+    * **libvte**-based [Termite](https://github.com/thestinger/termite)
     * **libvte**-based [Tilda](https://github.com/lanoxx/tilda)
     * **libvte**-based [stjerm](https://github.com/stjerm/stjerm)
     * **libvte**-based [tinyterm](https://code.google.com/p/tinyterm)
