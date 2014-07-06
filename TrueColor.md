@@ -54,8 +54,12 @@ Now **supporting** truecolor
 Parsing ANSI color sequences, but approximating them to 256 palette:
 --------------------------------------------------------------------
 
-* xterm
+* xterm (though doing it wrong: "it uses nearest colour in RGB colour space, with a usualfalse assumption about orthogonal axes"
 * [mlterm](https://sourceforge.net/projects/mlterm/) - http://sourceforge.net/mailarchive/message.php?msg_id=31828705
+
+Note about colour differences: a) RGB axes are not orthogonal, so you cannot use sqrt(R^2+G^2+B^2) formula, b) for colour differences there is more correct (but much more complex) [CIEDE2000](http://en.wikipedia.org/wiki/Color_difference#CIEDE2000) formula (which may easily blow up performance if used blindly) [2].
+
+[2] https://github.com/neovim/neovim/issues/793#issuecomment-48106948
 
 **NOT supporting** truecolor:
 -----------------------------
