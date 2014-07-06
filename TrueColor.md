@@ -61,6 +61,7 @@ Parsing ANSI color sequences, but approximating them to 256 palette:
 * [mrxvt](https://sourceforge.net/projects/materm) - https://sourceforge.net/p/materm/feature-requests/41/
 * [aterm](http://www.afterstep.org/aterm.php) - https://sourceforge.net/p/aterm/feature-requests/23/
 * [fbcon](https://www.kernel.org/doc/Documentation/fb/fbcon.txt) (from linux kernel) - https://bugzilla.kernel.org/show_bug.cgi?id=79551
+* FreeBSD console - https://bugs.freebsd.org/bugzilla/show_bug.cgi?id=191652
 
 Here are another console programs discussions:
 ============================================
