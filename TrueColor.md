@@ -22,6 +22,7 @@ printf "\x1b[38;2;255;100;0mTRUECOLOR\x1b[0m\n"
 ```
 * or http://github.com/robertknight/konsole/tree/master/tests/color-spaces.pl
 * or https://git.gnome.org/browse/vte/tree/perf/img.sh?h=vte-0-36
+Also it is possible to use both ';' and ':' as parameters delimiter.
 
 According to Wikipedia[1], this is only supported by xterm and konsole.
 
