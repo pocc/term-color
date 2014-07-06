@@ -12,6 +12,7 @@ Now supporting truecolor:
 ** [libvte] Lilyterm
 ** [libvte] ROXTerm
 ** [libvte] evilvte
+** [libvte] Termit
 
 Parsing ANSI color sequences, but approximating them to 256 palette:
 
