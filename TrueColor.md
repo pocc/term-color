@@ -1,12 +1,5 @@
-Here's a test case:
-```
-printf "\x1b[38;2;255;100;0mTRUECOLOR\x1b[0m\n"
-```
-* or http://github.com/robertknight/konsole/tree/master/tests/color-spaces.pl
-* or https://git.gnome.org/browse/vte/tree/perf/img.sh?h=vte-0-36
-
-According to Wikipedia[1], this is only supported by xterm and konsole.
-
+Colors in terminal
+==================
 It's a common confusion about terminal colors... Actually we have this:
 * plain ascii
 * ansi escape codes (16 color codes with bold/italic and background)
@@ -22,6 +15,15 @@ different colors at the same time.
 
 Truecolor escape codes doesnt uses a color palete. It just specifies the
 color itself.
+
+Here's a test case:
+```
+printf "\x1b[38;2;255;100;0mTRUECOLOR\x1b[0m\n"
+```
+* or http://github.com/robertknight/konsole/tree/master/tests/color-spaces.pl
+* or https://git.gnome.org/browse/vte/tree/perf/img.sh?h=vte-0-36
+
+According to Wikipedia[1], this is only supported by xterm and konsole.
 
 [1] https://en.wikipedia.org/wiki/ANSI_color
 
