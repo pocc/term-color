@@ -6,13 +6,13 @@ Now supporting truecolor:
 * konsole - https://bugs.kde.org/show_bug.cgi?id=107487
 * iterm2 - https://code.google.com/p/iterm2/issues/detail?id=218
 * all libvte based terminals:  https://bugzilla.gnome.org/show_bug.cgi?id=704449
-** [libvte] Gnome Terminal
-** [libvte] sakura - https://bugs.launchpad.net/sakura/+bug/1202564
-** [libvte] Terminator
-** [libvte] Lilyterm
-** [libvte] ROXTerm
-** [libvte] evilvte
-** [libvte] Termit
+    * [libvte] Gnome Terminal
+    * [libvte] sakura - https://bugs.launchpad.net/sakura/+bug/1202564
+    * [libvte] Terminator
+    * [libvte] Lilyterm
+    * [libvte] ROXTerm
+    * [libvte] evilvte
+    * [libvte] Termit
 
 Parsing ANSI color sequences, but approximating them to 256 palette:
 
