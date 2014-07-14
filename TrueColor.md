@@ -40,7 +40,7 @@ Now **supporting** truecolor
 * [iterm2](http://www.iterm2.com/) - https://code.google.com/p/iterm2/issues/detail?id=218
 * all [libvte](http://ftp.gnome.org/pub/GNOME/sources/vte/) based terminals (since 0.36 version) -  https://bugzilla.gnome.org/show_bug.cgi?id=704449
     * **libvte**-based [Gnome Terminal](https://help.gnome.org/users/gnome-terminal/stable/)
-    * **libvte**-based [sakura](http://www.pleyades.net/david/projects/sakura) - https://bugs.launchpad.net/sakura/+bug/1202564
+    * **libvte**-based [sakura](http://www.pleyades.net/david/projects/sakura)
     * **libvte**-based [Terminator](http://gnometerminator.blogspot.com/p/introduction.html)
     * **libvte**-based [Lilyterm](http://lilyterm.luna.com.tw/)
     * **libvte**-based [ROXTerm](http://roxterm.sourceforge.net/)
