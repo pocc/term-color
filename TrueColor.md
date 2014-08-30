@@ -45,7 +45,7 @@ Now **supporting** truecolor
     * **libvte**-based [Terminator](http://gnometerminator.blogspot.com/p/introduction.html)
     * **libvte**-based [Lilyterm](http://lilyterm.luna.com.tw/) - since commit https://github.com/Tetralet/LilyTerm/commit/72536e7ba448ad9ef1126ce45fbde3a3407a271b
     * **libvte**-based [ROXTerm](http://roxterm.sourceforge.net/)
-    * **libvte**-based [evilvte](http://www.calno.com/evilvte/)
+    * **libvte**-based [evilvte](http://www.calno.com/evilvte/) - no release yet, version from git https://github.com/caleb-/evilvte
     * **libvte**-based [Termit](https://github.com/nonstop/termit)
     * **libvte**-based [Termite](https://github.com/thestinger/termite)
     * **libvte**-based [Tilda](https://github.com/lanoxx/tilda)
