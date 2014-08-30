@@ -49,7 +49,6 @@ Now **supporting** truecolor
     * **libvte**-based [Termit](https://github.com/nonstop/termit)
     * **libvte**-based [Termite](https://github.com/thestinger/termite)
     * **libvte**-based [Tilda](https://github.com/lanoxx/tilda)
-    * **libvte**-based [stjerm](https://github.com/stjerm/stjerm)
     * **libvte**-based [tinyterm](https://code.google.com/p/tinyterm)
 
 But there are bunch of libvte-based terminals for GTK2 so they are listed in the another section.
@@ -76,6 +75,7 @@ Note about colour differences: a) RGB axes are not orthogonal, so you cannot use
 * FreeBSD console - https://bugs.freebsd.org/bugzilla/show_bug.cgi?id=191652
 * libvte and GTK2 - based:
      * **libvte**-based [GTKTerm2](http://gtkterm.feige.net/)
+     * **libvte**-based [stjerm](https://github.com/stjerm/stjerm) - https://github.com/stjerm/stjerm/issues/39
 
 Terminal multiplexers
 ---------------------
