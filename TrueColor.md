@@ -39,7 +39,7 @@ Now **supporting** truecolor
 * [konsole](http://kde.org/applications/system/konsole/) [delimeter: colon, semicolon] - https://bugs.kde.org/show_bug.cgi?id=107487
 * [iterm2](http://www.iterm2.com/) - https://code.google.com/p/iterm2/issues/detail?id=218
 * [qterminal](https://github.com/qterminal/qterminal) [delimeter: semicolon] - https://github.com/qterminal/qterminal/issues/78
-* [Terra Term](http://en.sourceforge.jp/projects/ttssh2/) [delimeter: colon, semicolon]
+* [Tera Term](http://en.sourceforge.jp/projects/ttssh2/) [delimeter: colon, semicolon] - **Windows platform**
 * all [libvte](http://ftp.gnome.org/pub/GNOME/sources/vte/) based terminals (since 0.36 version) [delimeter: colon, semilocon] -  https://bugzilla.gnome.org/show_bug.cgi?id=704449
     * **libvte**-based [Gnome Terminal](https://help.gnome.org/users/gnome-terminal/stable/)
     * **libvte**-based [sakura](http://www.pleyades.net/david/projects/sakura)
