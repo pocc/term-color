@@ -89,6 +89,12 @@ Terminal multiplexers
 Here are another console programs discussions:
 ============================================
 
+Supporting True Color:
+
+* irssi - https://github.com/irssi/irssi/pull/48
+
+Not supporting True Color:
+
 * mutt - http://dev.mutt.org/trac/ticket/3674
 * mc - http://www.midnight-commander.org/ticket/3145#comment:1 - demo patches attached
 * s-lang library - http://lists.jedsoft.org/lists/slang-users/2014/0000002.html
@@ -98,4 +104,3 @@ Here are another console programs discussions:
 * emacs - http://emacs.1067599.n5.nabble.com/RFC-Add-tty-True-Color-support-td299962.html
 * vim - https://bitbucket.org/ZyX_I/vim/commits/branch/24-bit-xterm
 * tig - https://github.com/jonas/tig/issues/227
-* irssi - https://github.com/irssi/irssi/pull/48
