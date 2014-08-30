@@ -35,10 +35,11 @@ Here are terminals discussions:
 Now **supporting** truecolor
 ----------------------------
 
-* [st](http://st.suckless.org/) (from suckless) -  http://lists.suckless.org/dev/1307/16688.html
-* [konsole](http://kde.org/applications/system/konsole/) - https://bugs.kde.org/show_bug.cgi?id=107487
+* [st](http://st.suckless.org/) (from suckless) [delimeter: semicolon] -  http://lists.suckless.org/dev/1307/16688.html
+* [konsole](http://kde.org/applications/system/konsole/) [delimeter: colon, semicolon] - https://bugs.kde.org/show_bug.cgi?id=107487
 * [iterm2](http://www.iterm2.com/) - https://code.google.com/p/iterm2/issues/detail?id=218
-* all [libvte](http://ftp.gnome.org/pub/GNOME/sources/vte/) based terminals (since 0.36 version) -  https://bugzilla.gnome.org/show_bug.cgi?id=704449
+* [qterminal](https://github.com/qterminal/qterminal) [delimeter: semicolon] - https://github.com/qterminal/qterminal/issues/78 
+* all [libvte](http://ftp.gnome.org/pub/GNOME/sources/vte/) based terminals (since 0.36 version) [delimeter: colon, semilocon] -  https://bugzilla.gnome.org/show_bug.cgi?id=704449
     * **libvte**-based [Gnome Terminal](https://help.gnome.org/users/gnome-terminal/stable/)
     * **libvte**-based [sakura](http://www.pleyades.net/david/projects/sakura)
     * **libvte**-based [Terminator](http://gnometerminator.blogspot.com/p/introduction.html)
@@ -50,7 +51,8 @@ Now **supporting** truecolor
     * **libvte**-based [Tilda](https://github.com/lanoxx/tilda)
     * **libvte**-based [stjerm](https://github.com/stjerm/stjerm)
     * **libvte**-based [tinyterm](https://code.google.com/p/tinyterm)
-    * **libvte**-based [GTKTerm2](http://gtkterm.feige.net/)
+
+But there are bunch of libvte-based terminals for GTK2 so they are listed in the another section.
 
 Parsing ANSI color sequences, but approximating them to 256 palette
 -------------------------------------------------------------------
@@ -72,6 +74,8 @@ Note about colour differences: a) RGB axes are not orthogonal, so you cannot use
 * [mintty](https://code.google.com/p/mintty/) (Cygwin and MSYS) - https://code.google.com/p/mintty/issues/detail?id=431
 * [fbcon](https://www.kernel.org/doc/Documentation/fb/fbcon.txt) (from linux kernel) - https://bugzilla.kernel.org/show_bug.cgi?id=79551
 * FreeBSD console - https://bugs.freebsd.org/bugzilla/show_bug.cgi?id=191652
+* libvte and GTK2 - based:
+     * **libvte**-based [GTKTerm2](http://gtkterm.feige.net/)
 
 Terminal multiplexers
 ---------------------
