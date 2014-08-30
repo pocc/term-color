@@ -43,7 +43,7 @@ Now **supporting** truecolor
     * **libvte**-based [Gnome Terminal](https://help.gnome.org/users/gnome-terminal/stable/)
     * **libvte**-based [sakura](http://www.pleyades.net/david/projects/sakura)
     * **libvte**-based [Terminator](http://gnometerminator.blogspot.com/p/introduction.html)
-    * **libvte**-based [Lilyterm](http://lilyterm.luna.com.tw/)
+    * **libvte**-based [Lilyterm](http://lilyterm.luna.com.tw/) - since commit https://github.com/Tetralet/LilyTerm/commit/72536e7ba448ad9ef1126ce45fbde3a3407a271b
     * **libvte**-based [ROXTerm](http://roxterm.sourceforge.net/)
     * **libvte**-based [evilvte](http://www.calno.com/evilvte/)
     * **libvte**-based [Termit](https://github.com/nonstop/termit)
