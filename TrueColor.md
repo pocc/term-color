@@ -52,6 +52,7 @@ Now **supporting** truecolor
     * **libvte**-based [Termite](https://github.com/thestinger/termite)
     * **libvte**-based [Tilda](https://github.com/lanoxx/tilda)
     * **libvte**-based [tinyterm](https://code.google.com/p/tinyterm)
+    * **libvte**-based [lxterminal](http://sourceforge.net/projects/lxde) - with **--enable-gtk3** configure flag.
 
 But there are bunch of libvte-based terminals for GTK2 so they are listed in the another section.
 
