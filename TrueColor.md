@@ -47,7 +47,7 @@ Now **supporting** truecolor
 * all [libvte](http://ftp.gnome.org/pub/GNOME/sources/vte/) based terminals (since 0.36 version) [delimeter: colon, semilocon] -  https://bugzilla.gnome.org/show_bug.cgi?id=704449
     * **libvte**-based [Gnome Terminal](https://help.gnome.org/users/gnome-terminal/stable/)
     * **libvte**-based [sakura](http://www.pleyades.net/david/projects/sakura)
-    * **libvte**-based [Terminator](http://gnometerminator.blogspot.com/p/introduction.html)
+    * **libvte**-based [Terminator](http://gnometerminator.blogspot.com/p/introduction.html) - use [GTK+3](https://launchpad.net/terminator/gtk3) version.
     * **libvte**-based [Lilyterm](http://lilyterm.luna.com.tw/) - since commit https://github.com/Tetralet/LilyTerm/commit/72536e7ba448ad9ef1126ce45fbde3a3407a271b
     * **libvte**-based [ROXTerm](http://roxterm.sourceforge.net/)
     * **libvte**-based [evilvte](http://www.calno.com/evilvte/) - no release yet, version from git https://github.com/caleb-/evilvte
