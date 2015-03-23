@@ -97,6 +97,7 @@ Here are another console programs discussions:
 Supporting True Color:
 
 * irssi - https://github.com/irssi/irssi/pull/48
+* neovim - https://github.com/neovim/neovim/commit/8dd415e887923f99ab5daaeba9f0303e173dd1aa
 
 Not supporting True Color:
 
