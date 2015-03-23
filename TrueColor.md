@@ -43,6 +43,7 @@ Now **supporting** truecolor
 * [iterm2](http://www.iterm2.com/) [delimeter: colon, semicolon] - only in the nighties https://code.google.com/p/iterm2/issues/detail?id=218
 * [qterminal](https://github.com/qterminal/qterminal) [delimeter: semicolon] - https://github.com/qterminal/qterminal/issues/78
 * [Tera Term](http://en.sourceforge.jp/projects/ttssh2/) [delimeter: colon, semicolon] - **Windows platform**
+* [ConEmu](https://github.com/Maximus5/ConEmu) [delimeter: semicolon] - **Windows platform**
 * [FinalTerm](http://finalterm.org/) [delimeter: semicolon]
 * all [libvte](http://ftp.gnome.org/pub/GNOME/sources/vte/) based terminals (since 0.36 version) [delimeter: colon, semilocon] -  https://bugzilla.gnome.org/show_bug.cgi?id=704449
     * **libvte**-based [Gnome Terminal](https://help.gnome.org/users/gnome-terminal/stable/)
