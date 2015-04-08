@@ -108,6 +108,6 @@ Not supporting True Color:
 * ncurses library - https://lists.gnu.org/archive/html/bug-ncurses/2013-10/msg00007.html
 * termbox library - https://github.com/nsf/termbox/issues/37
 * mcabber - https://bitbucket.org/McKael/mcabber-crew/issue/126/support-for-true-color-16-millions-colors
-* emacs - http://emacs.1067599.n5.nabble.com/RFC-Add-tty-True-Color-support-td299962.html
+* emacs - http://emacs.1067599.n5.nabble.com/RFC-Add-tty-True-Color-support-td299962.html and http://emacs.1067599.n5.nabble.com/bug-20243-True-color-terminal-support-tc354040.html
 * vim - https://bitbucket.org/ZyX_I/vim/commits/branch/24-bit-xterm
 * tig - https://github.com/jonas/tig/issues/227
