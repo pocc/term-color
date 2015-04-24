@@ -88,10 +88,11 @@ Note about colour differences: a) RGB axes are not orthogonal, so you cannot use
 Terminal multiplexers
 ---------------------
 
-* [tmux](http://tmux.sourceforge.net/) (have workaround[3]) - https://sourceforge.net/p/tmux/tickets/140/ and https://www.mail-archive.com/tmux-users@lists.sourceforge.net/msg04720.html
+* [tmux](http://tmux.sourceforge.net/) (have workaround[3] and patch[4]) - https://sourceforge.net/p/tmux/tickets/140/ and https://www.mail-archive.com/tmux-users@lists.sourceforge.net/msg04720.html
 * screen
 
 [3] Currently you can use tmux_escape option as a workaround if you want true color in shell run under tmux. No true color in tmux statusline though.
+[4] You can see the patch here https://gist.github.com/JohnMorales/0579990993f6dec19e83
 
 Here are another console programs discussions:
 ============================================
