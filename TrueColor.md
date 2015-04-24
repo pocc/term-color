@@ -92,6 +92,7 @@ Terminal multiplexers
 * screen
 
 [3] Currently you can use tmux_escape option as a workaround if you want true color in shell run under tmux. No true color in tmux statusline though.
+
 [4] You can see the patch here https://gist.github.com/JohnMorales/0579990993f6dec19e83
 
 Here are another console programs discussions:
