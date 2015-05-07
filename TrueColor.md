@@ -75,7 +75,7 @@ Note about colour differences: a) RGB axes are not orthogonal, so you cannot use
 ----------------------------
 
 * [urxvt](http://software.schmorp.de/pkg/rxvt-unicode.html) -  http://lists.schmorp.de/pipermail/rxvt-unicode/2013q3/001826.html 
-* [Terminlogy](https://www.enlightenment.org/p.php?p=about/terminology) (E17) - https://phab.enlightenment.org/T746
+* [Terminology](https://www.enlightenment.org/p.php?p=about/terminology) (E17) - https://phab.enlightenment.org/T746
 * [mrxvt](https://sourceforge.net/projects/materm) - https://sourceforge.net/p/materm/feature-requests/41/
 * [aterm](http://www.afterstep.org/aterm.php) - https://sourceforge.net/p/aterm/feature-requests/23/
 * [mintty](https://code.google.com/p/mintty/) (Cygwin and MSYS, patch [3] available) - https://code.google.com/p/mintty/issues/detail?id=431
