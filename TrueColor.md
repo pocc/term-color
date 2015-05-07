@@ -78,22 +78,24 @@ Note about colour differences: a) RGB axes are not orthogonal, so you cannot use
 * [Terminlogy](https://www.enlightenment.org/p.php?p=about/terminology) (E17) - https://phab.enlightenment.org/T746
 * [mrxvt](https://sourceforge.net/projects/materm) - https://sourceforge.net/p/materm/feature-requests/41/
 * [aterm](http://www.afterstep.org/aterm.php) - https://sourceforge.net/p/aterm/feature-requests/23/
-* [mintty](https://code.google.com/p/mintty/) (Cygwin and MSYS) - https://code.google.com/p/mintty/issues/detail?id=431
+* [mintty](https://code.google.com/p/mintty/) (Cygwin and MSYS, patch [3] available) - https://code.google.com/p/mintty/issues/detail?id=431
 * [fbcon](https://www.kernel.org/doc/Documentation/fb/fbcon.txt) (from linux kernel) - https://bugzilla.kernel.org/show_bug.cgi?id=79551
 * FreeBSD console - https://bugs.freebsd.org/bugzilla/show_bug.cgi?id=191652
 * libvte and GTK2 - based:
      * **libvte**-based [GTKTerm2](http://gtkterm.feige.net/)
      * **libvte**-based [stjerm](https://github.com/stjerm/stjerm) - https://github.com/stjerm/stjerm/issues/39
 
+[3] You can see the commit here https://github.com/rr-/mintty/commit/9bfac3353a093c904fcdb4a14f12aae483bf83c5
+
 Terminal multiplexers
 ---------------------
 
-* [tmux](http://tmux.sourceforge.net/) (have workaround[3] and patch[4]) - https://sourceforge.net/p/tmux/tickets/140/ and https://www.mail-archive.com/tmux-users@lists.sourceforge.net/msg04720.html
+* [tmux](http://tmux.sourceforge.net/) (have workaround[4] and patch[5]) - https://sourceforge.net/p/tmux/tickets/140/ and https://www.mail-archive.com/tmux-users@lists.sourceforge.net/msg04720.html
 * screen
 
-[3] Currently you can use tmux_escape option as a workaround if you want true color in shell run under tmux. No true color in tmux statusline though.
+[4] Currently you can use tmux_escape option as a workaround if you want true color in shell run under tmux. No true color in tmux statusline though.
 
-[4] You can see the patch here https://gist.github.com/JohnMorales/0579990993f6dec19e83
+[5] You can see the patch here https://gist.github.com/JohnMorales/0579990993f6dec19e83
 
 Here are another console programs discussions:
 ============================================
