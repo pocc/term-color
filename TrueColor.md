@@ -80,7 +80,7 @@ Note about colour differences: a) RGB axes are not orthogonal, so you cannot use
 * [mintty](https://code.google.com/p/mintty/) (Cygwin and MSYS, patch [3] available) - https://code.google.com/p/mintty/issues/detail?id=431
 * [fbcon](https://www.kernel.org/doc/Documentation/fb/fbcon.txt) (from linux kernel) - https://bugzilla.kernel.org/show_bug.cgi?id=79551
 * FreeBSD console - https://bugs.freebsd.org/bugzilla/show_bug.cgi?id=191652
-* [PuTTY](http://www.chiark.greenend.org.uk/~sgtatham/putty/) (patched version [4] available)
+* [PuTTY](http://www.chiark.greenend.org.uk/~sgtatham/putty/) (patched version [4] available) - **Windows platform**
 * libvte and GTK2 - based:
      * **libvte**-based [GTKTerm2](http://gtkterm.feige.net/)
      * **libvte**-based [stjerm](https://github.com/stjerm/stjerm) - https://github.com/stjerm/stjerm/issues/39
