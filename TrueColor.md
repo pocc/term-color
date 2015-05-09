@@ -6,9 +6,9 @@ It's a common confusion about terminal colors... Actually we have this:
 * 256 color palette (216 colors+16gray + ansi) (colors are 24bit)
 * 24bit true color (888 colors (aka 16 milion))
 
-   ```
-   printf "\x1b[${bg};2;${red};${green};${blue}m\n"
-   ```
+```
+printf "\x1b[${bg};2;${red};${green};${blue}m\n"
+```
 
 The 256 color palete is configured at start, and it's a 666 cube of
 colors, each of them defined as a 24bit (888 rgb) color.
