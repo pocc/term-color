@@ -85,6 +85,7 @@ Note about colour differences: a) RGB axes are not orthogonal, so you cannot use
 * libvte and GTK2 - based:
      * **libvte**-based [GTKTerm2](http://gtkterm.feige.net/)
      * **libvte**-based [stjerm](https://github.com/stjerm/stjerm) - https://github.com/stjerm/stjerm/issues/39
+     * **libvte**-based [xfce4-terminal](http://docs.xfce.org/apps/terminal/start) - will be solved automatically since Xfce slowly migrating to the GTK+3
 
 [3] You can see the commit here https://github.com/rr-/mintty/commit/9bfac3353a093c904fcdb4a14f12aae483bf83c5
 
