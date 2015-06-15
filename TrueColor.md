@@ -81,7 +81,7 @@ Note about colour differences: a) RGB axes are not orthogonal, so you cannot use
 * [mintty](https://code.google.com/p/mintty/) (Cygwin and MSYS, patch [3] available) - https://code.google.com/p/mintty/issues/detail?id=431
 * [fbcon](https://www.kernel.org/doc/Documentation/fb/fbcon.txt) (from linux kernel) - https://bugzilla.kernel.org/show_bug.cgi?id=79551
 * FreeBSD console - https://bugs.freebsd.org/bugzilla/show_bug.cgi?id=191652
-* [PuTTY](http://www.chiark.greenend.org.uk/~sgtatham/putty/) (patched version [4] available) - **Windows platform**
+* [PuTTY](http://www.chiark.greenend.org.uk/~sgtatham/putty/) (patched version [4] (xterm-like approximation to 256 colors) and [5] (real true colors) available) - **Windows platform**
 * libvte and GTK2 - based:
      * **libvte**-based [GTKTerm2](http://gtkterm.feige.net/)
      * **libvte**-based [stjerm](https://github.com/stjerm/stjerm) - https://github.com/stjerm/stjerm/issues/39
@@ -91,15 +91,17 @@ Note about colour differences: a) RGB axes are not orthogonal, so you cannot use
 
 [4] You can download patched version here https://github.com/rdebath/PuTTY
 
+[5] You can download patched version here https://github.com/halcy/PuTTY
+
 Terminal multiplexers
 ---------------------
 
-* [tmux](http://tmux.sourceforge.net/) (have workaround[5] and patch[6]) - https://sourceforge.net/p/tmux/tickets/140/ and https://www.mail-archive.com/tmux-users@lists.sourceforge.net/msg04720.html
+* [tmux](http://tmux.sourceforge.net/) (have workaround[6] and patch[7]) - https://sourceforge.net/p/tmux/tickets/140/ and https://www.mail-archive.com/tmux-users@lists.sourceforge.net/msg04720.html
 * screen
 
-[5] Currently you can use tmux_escape option as a workaround if you want true color in shell run under tmux. No true color in tmux statusline though.
+[6] Currently you can use tmux_escape option as a workaround if you want true color in shell run under tmux. No true color in tmux statusline though.
 
-[6] You can see the patch here https://gist.github.com/JohnMorales/0579990993f6dec19e83
+[7] You can see the patch here https://gist.github.com/JohnMorales/0579990993f6dec19e83
 
 Here are another console programs discussions:
 ============================================
