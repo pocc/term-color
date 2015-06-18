@@ -78,7 +78,7 @@ Note about colour differences: a) RGB axes are not orthogonal, so you cannot use
 * [Terminology](https://www.enlightenment.org/p.php?p=about/terminology) (E17) - https://phab.enlightenment.org/T746
 * [mrxvt](https://sourceforge.net/projects/materm) (looks abandoned) - https://sourceforge.net/p/materm/feature-requests/41/
 * [aterm](http://www.afterstep.org/aterm.php) (looks abandoned) - https://sourceforge.net/p/aterm/feature-requests/23/
-* [mintty](https://code.google.com/p/mintty/) (Cygwin and MSYS, patch [3] available) - https://code.google.com/p/mintty/issues/detail?id=431
+* [mintty](https://code.google.com/p/mintty/) (Cygwin and MSYS, patch [3] available) - https://code.google.com/p/mintty/issues/detail?id=431 and https://github.com/mintty/mintty/issues/431
 * [fbcon](https://www.kernel.org/doc/Documentation/fb/fbcon.txt) (from linux kernel) - https://bugzilla.kernel.org/show_bug.cgi?id=79551
 * FreeBSD console - https://bugs.freebsd.org/bugzilla/show_bug.cgi?id=191652
 * [PuTTY](http://www.chiark.greenend.org.uk/~sgtatham/putty/) (patched version [4] {xterm-like approximation to 256 colors} and [5] {real true colors} available) - **Windows platform**
