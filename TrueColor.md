@@ -110,6 +110,7 @@ Supporting True Color:
 
 * irssi - https://github.com/irssi/irssi/pull/48
 * neovim - https://github.com/neovim/neovim/commit/8dd415e887923f99ab5daaeba9f0303e173dd1aa
+* elinks - http://repo.or.cz/w/elinks.git/blob/HEAD:/configure.in#l1410 (./configure --enable-true-color)
 
 Not supporting True Color:
 
