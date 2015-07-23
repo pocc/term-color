@@ -33,6 +33,9 @@ According to Wikipedia[1], this is only supported by xterm and konsole.
 
 [1] https://en.wikipedia.org/wiki/ANSI_color
 
+Currently, there is no support for the 24-bit color descriptions in the terminfo/termcap database and utilites.
+See the discussion thread here: https://lists.gnu.org/archive/html/bug-ncurses/2013-10/msg00007.html
+
 Here are terminals discussions:
 ==============================
 
