@@ -48,7 +48,7 @@ Now **supporting** truecolor
 * [qterminal](https://github.com/qterminal/qterminal) [delimeter: semicolon] - https://github.com/qterminal/qterminal/issues/78
 * [Tera Term](http://en.sourceforge.jp/projects/ttssh2/) [delimeter: colon, semicolon] - **Windows platform**
 * [ConEmu](https://github.com/Maximus5/ConEmu) [delimeter: semicolon] - **Windows platform**
-* [FinalTerm](http://finalterm.org/) [delimeter: semicolon]
+* [FinalTerm](http://finalterm.org/) [delimeter: semicolon] - abandoned, iTerm2 [borrowing it's ideas and features](http://iterm2.com/shell_integration.html).
 * [mintty](https://mintty.github.io/) [delimeter: semicolon] **Cygwin and MSYS/MSYS2** since commit https://github.com/mintty/mintty/commit/43f0ed8a46c6549cb9a3ea27abc057b5abe13bdb (2.0.1 release) - **Windows platform**
 * all [libvte](http://ftp.gnome.org/pub/GNOME/sources/vte/) based terminals (since 0.36 version) [delimeter: colon, semilocon] -  https://bugzilla.gnome.org/show_bug.cgi?id=704449
     * **libvte**-based [Gnome Terminal](https://help.gnome.org/users/gnome-terminal/stable/)
