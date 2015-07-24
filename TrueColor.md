@@ -99,7 +99,7 @@ Note about colour differences: a) RGB axes are not orthogonal, so you cannot use
 Terminal multiplexers
 ---------------------
 
-* [tmux](http://tmux.github.io/) (have workaround[6] and patch[7]) - https://github.com/tmux/tmux/issues/34 Older: https://sourceforge.net/p/tmux/tickets/140/ and https://www.mail-archive.com/tmux-users@lists.sourceforge.net/msg04720.html - standing strongly against 24bit colors support, deliberately closed, then removed the issue.
+* [tmux](http://tmux.github.io/) (have workaround[6] and patch[7]) - https://github.com/tmux/tmux/issues/34 Older: https://sourceforge.net/p/tmux/tickets/140/ and https://www.mail-archive.com/tmux-users@lists.sourceforge.net/msg04720.html
 * screen
 
 [6] Currently you can use tmux_escape option as a workaround if you want true color in shell run under tmux. No true color in tmux statusline though.
