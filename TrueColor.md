@@ -4,7 +4,7 @@ It's a common confusion about terminal colors... Actually we have this:
 * plain ascii
 * ansi escape codes (16 color codes with bold/italic and background)
 * 256 color palette (216 colors + 16 gray + ansi) (colors are 24bit)
-* 24bit true color (888 colors (aka 16 milion))
+* 24bit true color ("888" colors (aka 16 milion))
 
 ```
 printf "\x1b[${bg};2;${red};${green};${blue}m\n"
