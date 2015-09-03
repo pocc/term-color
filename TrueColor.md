@@ -117,12 +117,12 @@ Supporting True Color:
 * irssi - https://github.com/irssi/irssi/pull/48
 * neovim - https://github.com/neovim/neovim/commit/8dd415e887923f99ab5daaeba9f0303e173dd1aa
 * elinks - http://repo.or.cz/w/elinks.git/blob/HEAD:/configure.in#l1410 (./configure --enable-true-color)
+* s-lang library - http://lists.jedsoft.org/lists/slang-users/2015/0000020.html (since pre2.3.1-35, for 64bit systems)
 
 Not supporting True Color:
 
 * mutt - http://dev.mutt.org/trac/ticket/3674
 * mc - http://www.midnight-commander.org/ticket/3145#comment:1 - demo patches attached
-* s-lang library - http://lists.jedsoft.org/lists/slang-users/2014/0000002.html
 * ncurses library - https://lists.gnu.org/archive/html/bug-ncurses/2013-10/msg00007.html
 * termbox library - https://github.com/nsf/termbox/issues/37
 * mcabber - https://bitbucket.org/McKael/mcabber-crew/issue/126/support-for-true-color-16-millions-colors
