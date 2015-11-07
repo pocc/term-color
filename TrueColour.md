@@ -1,24 +1,24 @@
-Colors in terminal
+Colours in terminal
 ==================
-It's a common confusion about terminal colors... Actually we have this:
+It's a common confusion about terminal colours... Actually we have this:
 * plain ascii
-* ansi escape codes (16 color codes with bold/italic and background)
-* 256 color palette (216 colors + 16 gray + ansi) (colors are 24bit)
-* 24bit true color ("888" colors (aka 16 milion))
+* ansi escape codes (16 colour codes with bold/italic and background)
+* 256 colour palette (216 colours + 16 gray + ansi) (colors are 24bit)
+* 24bit true colour ("888" colours (aka 16 milion))
 
 ```
 printf "\x1b[${bg};2;${red};${green};${blue}m\n"
 ```
 
-The 256 color palete is configured at start, and it's a 666 cube of
-colors, each of them defined as a 24bit (888 rgb) color.
+The 256 colour palete is configured at start, and it's a 666 cube of
+colours, each of them defined as a 24bit (888 rgb) colour.
 
-This means that current support can only display 256 different colors
-in the terminal, while truecolor means that you can display 16 milion
-different colors at the same time.
+This means that current support can only display 256 different colours
+in the terminal, while truecolour means that you can display 16 milion
+different colours at the same time.
 
-Truecolor escape codes doesnt uses a color palete. It just specifies the
-color itself.
+Truecolour escape codes doesnt uses a colour palete. It just specifies the
+colour itself.
 
 Here's a test case:
 ```
@@ -34,13 +34,13 @@ According to Wikipedia[1], this is only supported by xterm and konsole.
 
 [1] https://en.wikipedia.org/wiki/ANSI_color
 
-Currently, there is no support for the 24-bit color descriptions in the terminfo/termcap database and utilites.
+Currently, there is no support for the 24-bit colour descriptions in the terminfo/termcap database and utilites.
 See the discussion thread here: https://lists.gnu.org/archive/html/bug-ncurses/2013-10/msg00007.html
 
 Here are terminals discussions:
 ==============================
 
-Now **supporting** truecolor
+Now **supporting** truecolour
 ----------------------------
 
 * [st](http://st.suckless.org/) (from suckless) [delimeter: semicolon] -  http://lists.suckless.org/dev/1307/16688.html
@@ -67,7 +67,7 @@ Now **supporting** truecolor
 
 But there are bunch of libvte-based terminals for GTK2 so they are listed in the another section.
 
-Parsing ANSI color sequences, but approximating them to 256 palette
+Parsing ANSI colour sequences, but approximating them to 256 palette
 -------------------------------------------------------------------
 
 * xterm (though doing it wrong: "it uses nearest colour in RGB colour space, with a usualfalse assumption about orthogonal axes")
@@ -76,7 +76,7 @@ Note about colour differences: a) RGB axes are not orthogonal, so you cannot use
 
 [2] https://github.com/neovim/neovim/issues/793#issuecomment-48106948
 
-**NOT supporting** truecolor
+**NOT supporting** truecolour
 ----------------------------
 
 * [urxvt](http://software.schmorp.de/pkg/rxvt-unicode.html) (patched version [3] available) -  http://lists.schmorp.de/pipermail/rxvt-unicode/2013q3/001826.html 
@@ -103,7 +103,7 @@ Terminal multiplexers
 * [tmux](http://tmux.github.io/) (have workaround[6] and patches[7], [8] and [9]) - https://github.com/tmux/tmux/issues/34 Older: https://sourceforge.net/p/tmux/tickets/140/ and https://www.mail-archive.com/tmux-users@lists.sourceforge.net/msg04720.html
 * screen
 
-[6] Currently you can use tmux_escape option as a workaround if you want true color in shell run under tmux. No true color in tmux statusline though.
+[6] Currently you can use tmux_escape option as a workaround if you want true colour in shell run under tmux. No true colour in tmux statusline though.
 
 [7] You can see the patch here https://gist.github.com/JohnMorales/0579990993f6dec19e83
 
@@ -114,14 +114,14 @@ Terminal multiplexers
 Here are another console programs discussions:
 ============================================
 
-Supporting True Color:
+Supporting True Colour:
 
 * irssi - https://github.com/irssi/irssi/pull/48
 * neovim - https://github.com/neovim/neovim/commit/8dd415e887923f99ab5daaeba9f0303e173dd1aa
 * elinks - http://repo.or.cz/w/elinks.git/blob/HEAD:/configure.in#l1410 (./configure --enable-true-color)
 * s-lang library - http://lists.jedsoft.org/lists/slang-users/2015/0000020.html (since pre2.3.1-35, for 64bit systems)
 
-Not supporting True Color:
+Not supporting True Colour:
 
 * mutt - http://dev.mutt.org/trac/ticket/3674
 * mc - http://www.midnight-commander.org/ticket/3145#comment:1 - demo patches attached
