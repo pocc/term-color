@@ -118,6 +118,7 @@ Terminal multiplexers
 
 * [tmux](http://tmux.github.io/) (have workaround[6] and patches[7], [8] and [9]) - https://github.com/tmux/tmux/issues/34 Older: https://sourceforge.net/p/tmux/tickets/140/ and https://www.mail-archive.com/tmux-users@lists.sourceforge.net/msg04720.html
 * screen
+* [pymux](https://github.com/jonathanslenders/pymux) - tmux clone in pure Python (to enable truecolour run pymux with `--truecolor` option)
 
 [6] Currently you can use tmux_escape option as a workaround if you want true colour in shell run under tmux. No true colour in tmux statusline though.
 
