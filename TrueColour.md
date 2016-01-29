@@ -3,7 +3,7 @@ Colours in terminal
 It's a common confusion about terminal colours... Actually we have this:
 * plain ascii
 * ansi escape codes (16 colour codes with bold/italic and background)
-* 256 colour palette (216 colours + 16 gray + ansi) (colors are 24bit)
+* 256 colour palette (216 colours + 16 ansi + 24 gray) (colors are 24bit)
 * 24bit true colour ("888" colours (aka 16 milion))
 
 ```
