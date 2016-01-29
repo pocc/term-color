@@ -118,6 +118,7 @@ Terminal multiplexers
 
 * [tmux](http://tmux.github.io/) - has support since [427b820...](https://github.com/tmux/tmux/commit/427b8204268af5548d09b830e101c59daa095df9)
 * screen
+* [dvtm](https://github.com/martanne/dvtm) - not yet supporting True Colour https://github.com/martanne/dvtm/issues/10
 * [pymux](https://github.com/jonathanslenders/pymux) - tmux clone in pure Python (to enable truecolour run pymux with `--truecolor` option)
 
 Here are another console programs discussions:
