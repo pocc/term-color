@@ -116,17 +116,9 @@ Note about colour differences: a) RGB axes are not orthogonal, so you cannot use
 Terminal multiplexers
 ---------------------
 
-* [tmux](http://tmux.github.io/) (have workaround[6] and patches[7], [8] and [9]) - https://github.com/tmux/tmux/issues/34 Older: https://sourceforge.net/p/tmux/tickets/140/ and https://www.mail-archive.com/tmux-users@lists.sourceforge.net/msg04720.html
+* [tmux](http://tmux.github.io/) - has support since [427b820...](https://github.com/tmux/tmux/commit/427b8204268af5548d09b830e101c59daa095df9)
 * screen
 * [pymux](https://github.com/jonathanslenders/pymux) - tmux clone in pure Python (to enable truecolour run pymux with `--truecolor` option)
-
-[6] Currently you can use tmux_escape option as a workaround if you want true colour in shell run under tmux. No true colour in tmux statusline though.
-
-[7] You can see the patch here https://gist.github.com/JohnMorales/0579990993f6dec19e83
-
-[8] And here is the more recent patch https://gist.github.com/zchee/9f6f2ca17acf49e04088
-
-[9] And even a Pull Request to the tmux project https://github.com/tmux/tmux/pull/112
 
 Here are another console programs discussions:
 ============================================
