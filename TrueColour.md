@@ -61,7 +61,7 @@ Now **supporting** truecolour
 
 * [st](http://st.suckless.org/) (from suckless) [delimeter: semicolon] -  http://lists.suckless.org/dev/1307/16688.html
 * [konsole](http://kde.org/applications/system/konsole/) [delimeter: colon, semicolon] - https://bugs.kde.org/show_bug.cgi?id=107487
-* [iterm2](http://www.iterm2.com/) [delimeter: colon, semicolon] - only in the nighties https://code.google.com/p/iterm2/issues/detail?id=218
+* [iterm2](http://www.iterm2.com/) [delimeter: colon, semicolon] - only in beta builds
 * [qterminal](https://github.com/qterminal/qterminal) [delimeter: semicolon] - https://github.com/qterminal/qterminal/issues/78
 * [Tera Term](http://en.sourceforge.jp/projects/ttssh2/) [delimeter: colon, semicolon] - **Windows platform**
 * [ConEmu](https://github.com/Maximus5/ConEmu) [delimeter: semicolon] - **Windows platform**
