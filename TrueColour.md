@@ -94,6 +94,14 @@ Note about colour differences: a) RGB axes are not orthogonal, so you cannot use
 
 [2] https://github.com/neovim/neovim/issues/793#issuecomment-48106948
 
+Terminal multiplexers
+---------------------
+
+* [tmux](http://tmux.github.io/) - has support since [427b820...](https://github.com/tmux/tmux/commit/427b8204268af5548d09b830e101c59daa095df9)
+* [screen](http://git.savannah.gnu.org/cgit/screen.git/) - has support in 'master' branch, need to be enabled (see 'truecolor' option)
+* [pymux](https://github.com/jonathanslenders/pymux) - tmux clone in pure Python (to enable truecolour run pymux with `--truecolor` option)
+* [dvtm](https://github.com/martanne/dvtm) - not yet supporting True Colour https://github.com/martanne/dvtm/issues/10
+* 
 **NOT supporting** truecolour
 ----------------------------
 
@@ -114,14 +122,6 @@ Note about colour differences: a) RGB axes are not orthogonal, so you cannot use
 [4] You can download patched version here https://github.com/rdebath/PuTTY
 
 [5] You can download patched version here https://github.com/halcy/PuTTY
-
-Terminal multiplexers
----------------------
-
-* [tmux](http://tmux.github.io/) - has support since [427b820...](https://github.com/tmux/tmux/commit/427b8204268af5548d09b830e101c59daa095df9)
-* [screen](http://git.savannah.gnu.org/cgit/screen.git/) - has support in 'master' branch, need to be enabled (see 'truecolor' option)
-* [dvtm](https://github.com/martanne/dvtm) - not yet supporting True Colour https://github.com/martanne/dvtm/issues/10
-* [pymux](https://github.com/jonathanslenders/pymux) - tmux clone in pure Python (to enable truecolour run pymux with `--truecolor` option)
 
 Here are another console programs discussions:
 ============================================
