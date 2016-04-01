@@ -101,7 +101,7 @@ Terminal multiplexers
 * [screen](http://git.savannah.gnu.org/cgit/screen.git/) - has support in 'master' branch, need to be enabled (see 'truecolor' option)
 * [pymux](https://github.com/jonathanslenders/pymux) - tmux clone in pure Python (to enable truecolour run pymux with `--truecolor` option)
 * [dvtm](https://github.com/martanne/dvtm) - not yet supporting True Colour https://github.com/martanne/dvtm/issues/10
-* 
+
 **NOT supporting** truecolour
 ----------------------------
 
