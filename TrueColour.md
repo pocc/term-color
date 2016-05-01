@@ -130,6 +130,7 @@ Supporting True Colour:
 
 * irssi - https://github.com/irssi/irssi/pull/48
 * neovim - https://github.com/neovim/neovim/commit/8dd415e887923f99ab5daaeba9f0303e173dd1aa
+* vim - (from 7.4.1770) https://github.com/vim/vim/commit/8a633e3427b47286869aa4b96f2bfc1fe65b25cd
 * elinks - http://repo.or.cz/w/elinks.git/blob/HEAD:/configure.in#l1410 (./configure --enable-true-color)
 * s-lang library - http://lists.jedsoft.org/lists/slang-users/2015/0000020.html (since pre2.3.1-35, for 64bit systems)
 
@@ -141,5 +142,4 @@ Not supporting True Colour:
 * termbox library - https://github.com/nsf/termbox/issues/37
 * mcabber - https://bitbucket.org/McKael/mcabber-crew/issue/126/support-for-true-color-16-millions-colors
 * emacs - http://emacs.1067599.n5.nabble.com/RFC-Add-tty-True-Color-support-td299962.html and http://emacs.1067599.n5.nabble.com/bug-20243-True-color-terminal-support-tc354040.html
-* vim - https://bitbucket.org/ZyX_I/vim/commits/branch/24-bit-xterm
 * tig - https://github.com/jonas/tig/issues/227
