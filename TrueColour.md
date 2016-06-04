@@ -90,6 +90,7 @@ Parsing ANSI colour sequences, but approximating them to 256 palette
 
 * xterm (though doing it wrong: "it uses nearest colour in RGB colour space, with a usualfalse assumption about orthogonal axes")
 * linux console (since v3.16): https://github.com/torvalds/linux/commit/cec5b2a97a11ade56a701e83044d0a2a984c67b4
+* Windows 10 bash console, since build 14352, approximates 256 and 16M colors to 16fg/16bg https://github.com/Microsoft/BashOnWindows/issues/76
 
 Note about colour differences: a) RGB axes are not orthogonal, so you cannot use sqrt(R^2+G^2+B^2) formula, b) for colour differences there is more correct (but much more complex) [CIEDE2000](http://en.wikipedia.org/wiki/Color_difference#CIEDE2000) formula (which may easily blow up performance if used blindly) [2].
 
@@ -98,7 +99,7 @@ Note about colour differences: a) RGB axes are not orthogonal, so you cannot use
 Terminal multiplexers
 ---------------------
 
-* [tmux](http://tmux.github.io/) - has support since [427b820...](https://github.com/tmux/tmux/commit/427b8204268af5548d09b830e101c59daa095df9)
+* [tmux](http://tmux.github.io/) - starting from version 2.2 (support since [427b820...](https://github.com/tmux/tmux/commit/427b8204268af5548d09b830e101c59daa095df9))
 * [screen](http://git.savannah.gnu.org/cgit/screen.git/) - has support in 'master' branch, need to be enabled (see 'truecolor' option)
 * [pymux](https://github.com/jonathanslenders/pymux) - tmux clone in pure Python (to enable truecolour run pymux with `--truecolor` option)
 * [dvtm](https://github.com/martanne/dvtm) - not yet supporting True Colour https://github.com/martanne/dvtm/issues/10
