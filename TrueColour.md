@@ -61,6 +61,7 @@ Now **supporting** truecolour
 
 * [st](http://st.suckless.org/) (from suckless) [delimeter: semicolon] -  http://lists.suckless.org/dev/1307/16688.html
 * [konsole](http://kde.org/applications/system/konsole/) [delimeter: colon, semicolon] - https://bugs.kde.org/show_bug.cgi?id=107487
+* [urxvt aka rxvt-unicode](http://software.schmorp.de/pkg/rxvt-unicode.html) -  since http://lists.schmorp.de/pipermail/rxvt-unicode/2016q2/002261.html
 * [iterm2](http://www.iterm2.com/) [delimeter: colon, semicolon] - only in beta builds
 * [qterminal](https://github.com/qterminal/qterminal) [delimeter: semicolon] - https://github.com/qterminal/qterminal/issues/78
 * [cool-retro-term](https://github.com/Swordfish90/cool-retro-term) [delimeter: semicolon]
@@ -108,23 +109,20 @@ Terminal multiplexers
 **NOT supporting** truecolour
 ----------------------------
 
-* [urxvt](http://software.schmorp.de/pkg/rxvt-unicode.html) (patched version [3] available) -  http://lists.schmorp.de/pipermail/rxvt-unicode/2013q3/001826.html 
 * [Terminology](https://www.enlightenment.org/p.php?p=about/terminology) (E17) - https://phab.enlightenment.org/T746
 * [mrxvt](https://sourceforge.net/projects/materm) (looks abandoned) - https://sourceforge.net/p/materm/feature-requests/41/
 * [aterm](http://www.afterstep.org/aterm.php) (looks abandoned) - https://sourceforge.net/p/aterm/feature-requests/23/
 * [fbcon](https://www.kernel.org/doc/Documentation/fb/fbcon.txt) (from linux kernel) - https://bugzilla.kernel.org/show_bug.cgi?id=79551
 * FreeBSD console - https://bugs.freebsd.org/bugzilla/show_bug.cgi?id=191652
-* [PuTTY](http://www.chiark.greenend.org.uk/~sgtatham/putty/) (patched version [4] {xterm-like approximation to 256 colors} and [5] {real true colors} available) - **Windows platform**
+* [PuTTY](http://www.chiark.greenend.org.uk/~sgtatham/putty/) (patched version [3] {xterm-like approximation to 256 colors} and [4] {real true colors} available) - **Windows platform**
 * libvte and GTK2 - based:
      * **libvte**-based [GTKTerm2](http://gtkterm.feige.net/)
      * **libvte**-based [stjerm](https://github.com/stjerm/stjerm) (looks abandoned) - https://github.com/stjerm/stjerm/issues/39
      * **libvte**-based [xfce4-terminal](http://docs.xfce.org/apps/terminal/start) - will be solved automatically since Xfce [slowly migrating](https://www.linuxliteos.com/forums/off-topic/ikey-porting-xfce-to-gtk3/) to the GTK+3
 
-[3] You can download patched version here https://github.com/spudowiar/rxvt-unicode/tree/24bit
+[3] You can download patched version here https://github.com/rdebath/PuTTY
 
-[4] You can download patched version here https://github.com/rdebath/PuTTY
-
-[5] You can download patched version here https://github.com/halcy/PuTTY
+[4] You can download patched version here https://github.com/halcy/PuTTY
 
 Here are another console programs discussions:
 ============================================
