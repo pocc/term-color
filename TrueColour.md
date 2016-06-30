@@ -61,7 +61,7 @@ Now **supporting** truecolour
 
 * [st](http://st.suckless.org/) (from suckless) [delimeter: semicolon] -  http://lists.suckless.org/dev/1307/16688.html
 * [konsole](http://kde.org/applications/system/konsole/) [delimeter: colon, semicolon] - https://bugs.kde.org/show_bug.cgi?id=107487
-* [urxvt aka rxvt-unicode](http://software.schmorp.de/pkg/rxvt-unicode.html) -  since [Revision 150](http://cvs.schmorp.de/rxvt-unicode/src/command.C?revision=1.570&view=markup&sortby=log&sortdir=down) http://lists.schmorp.de/pipermail/rxvt-unicode/2016q2/002261.html
+* [urxvt aka rxvt-unicode](http://software.schmorp.de/pkg/rxvt-unicode.html) -  since [Revision 1.570](http://cvs.schmorp.de/rxvt-unicode/src/command.C?revision=1.570&view=markup&sortby=log&sortdir=down) http://lists.schmorp.de/pipermail/rxvt-unicode/2016q2/002261.html
 * [iterm2](http://www.iterm2.com/) [delimeter: colon, semicolon] - only in beta builds
 * [qterminal](https://github.com/qterminal/qterminal) [delimeter: semicolon] - https://github.com/qterminal/qterminal/issues/78
 * [cool-retro-term](https://github.com/Swordfish90/cool-retro-term) [delimeter: semicolon]
