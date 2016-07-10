@@ -130,11 +130,13 @@ Here are another console programs discussions:
 
 Supporting True Colour:
 
-* irssi - https://github.com/irssi/irssi/pull/48
-* neovim - https://github.com/neovim/neovim/commit/8dd415e887923f99ab5daaeba9f0303e173dd1aa
-* vim - (from 7.4.1770) https://github.com/vim/vim/commit/8a633e3427b47286869aa4b96f2bfc1fe65b25cd
-* elinks - http://repo.or.cz/w/elinks.git/blob/HEAD:/configure.in#l1410 (./configure --enable-true-color)
-* s-lang library - http://lists.jedsoft.org/lists/slang-users/2015/0000020.html (since pre2.3.1-35, for 64bit systems)
+* [irssi](https://github.com/irssi/irssi) - since [PR #48](https://github.com/irssi/irssi/pull/48)
+* [neovim](https://github.com/neovim/neovim) - since commit [8dd415e887923f99ab5daaeba9f0303e173dd1aa](https://github.com/neovim/neovim/commit/8dd415e887923f99ab5daaeba9f0303e173dd1aa)
+* [vim](https://github.com/vim/vim) - (from 7.4.1770) since commit [8a633e3427b47286869aa4b96f2bfc1fe65b25cd](https://github.com/vim/vim/commit/8a633e3427b47286869aa4b96f2bfc1fe65b25cd)
+* [elinks](http://repo.or.cz/w/elinks.git) - [configure.in:1410](http://repo.or.cz/w/elinks.git/blob/HEAD:/configure.in#l1410) (./configure --enable-true-color)
+* [s-lang](http://lists.jedsoft.org/lists/slang-users/2015/0000020.html) library -  (since pre2.3.1-35, for 64bit systems)
+* [timg](https://github.com/hzeller/timg) - Terminal Image Viewer
+* [tv](https://github.com/daleroberts/tv) - tool to quickly view high-resolution multi-band imagery directly in terminal
 
 Not supporting True Colour:
 
