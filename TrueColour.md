@@ -141,6 +141,7 @@ Supporting True Colour:
 Not supporting True Colour:
 
 * mutt - http://dev.mutt.org/trac/ticket/3674
+* neomutt - https://github.com/neomutt/neomutt/issues/85
 * mc - http://www.midnight-commander.org/ticket/3145#comment:1 - demo patches attached
 * ncurses library - https://lists.gnu.org/archive/html/bug-ncurses/2013-10/msg00007.html
 * termbox library - https://github.com/nsf/termbox/issues/37
