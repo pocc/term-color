@@ -88,6 +88,10 @@ Now **supporting** truecolour
 
 But there are bunch of libvte-based terminals for GTK2 so they are listed in the another section.
 
+Also, while this one is not exactly a terminal, but a terminal replayer, it still worth mentioning:
+
+  * [asciinema](http://asciinema.org) player: https://github.com/asciinema/asciinema-player
+
 Parsing ANSI colour sequences, but approximating them to 256 palette
 -------------------------------------------------------------------
 
