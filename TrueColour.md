@@ -74,6 +74,7 @@ Now **supporting** truecolour
 * all [libvte](http://ftp.gnome.org/pub/GNOME/sources/vte/) based terminals (since 0.36 version) [delimeter: colon, semilocon] -  https://bugzilla.gnome.org/show_bug.cgi?id=704449
     * **libvte**-based [Gnome Terminal](https://help.gnome.org/users/gnome-terminal/stable/)
     * **libvte**-based [sakura](http://www.pleyades.net/david/projects/sakura)
+    * **libvte**-based [xfce4-terminal](http://docs.xfce.org/apps/terminal/start) - since [0.6.90](https://github.com/xfce-mirror/xfce4-terminal/releases/tag/xfce4-terminal-0.6.90) release, if compiled with GTK+3
     * **libvte**-based [Terminator](http://gnometerminator.blogspot.com/p/introduction.html) - use [GTK+3](https://code.launchpad.net/~gnome-terminator/terminator/gtk3) version.
     * **libvte**-based [Terminix](https://github.com/gnunn1/terminix) - written in D. Similar user interface as for Terminator.
     * **libvte**-based [Lilyterm](http://lilyterm.luna.com.tw/) - since commit https://github.com/Tetralet/LilyTerm/commit/72536e7ba448ad9ef1126ce45fbde3a3407a271b
@@ -123,7 +124,6 @@ Terminal multiplexers
 * libvte and GTK2 - based:
      * **libvte**-based [GTKTerm2](http://gtkterm.feige.net/)
      * **libvte**-based [stjerm](https://github.com/stjerm/stjerm) (looks abandoned) - https://github.com/stjerm/stjerm/issues/39
-     * **libvte**-based [xfce4-terminal](http://docs.xfce.org/apps/terminal/start) - will be solved automatically since Xfce [slowly migrating](https://www.linuxliteos.com/forums/off-topic/ikey-porting-xfce-to-gtk3/) to the GTK+3
 
 [3] You can download patched version here https://github.com/rdebath/PuTTY
 
