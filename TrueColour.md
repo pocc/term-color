@@ -134,6 +134,7 @@ Here are another console programs discussions:
 
 Supporting True Colour:
 
+* [mc](http://www.midnight-commander.org) - since [682a5...](http://www.midnight-commander.org/changeset/682a5116edd20b8ba81743a1f7495c883b0ce644). See also [ticket #3742](http://www.midnight-commander.org/ticket/3724) for truecolor themes.
 * [irssi](https://github.com/irssi/irssi) - since [PR #48](https://github.com/irssi/irssi/pull/48)
 * [neovim](https://github.com/neovim/neovim) - since commit [8dd415e887923f99ab5daaeba9f0303e173dd1aa](https://github.com/neovim/neovim/commit/8dd415e887923f99ab5daaeba9f0303e173dd1aa);  need to set [termguicolors](https://neovim.io/doc/user/options.html#%27termguicolors) to enable true color.
 * [vim](https://github.com/vim/vim) - (from 7.4.1770) since commit [8a633e3427b47286869aa4b96f2bfc1fe65b25cd](https://github.com/vim/vim/commit/8a633e3427b47286869aa4b96f2bfc1fe65b25cd); need to set [termguicolors](https://github.com/vim/vim/blob/master/runtime/doc/version8.txt#L202) to enable true color.
@@ -147,7 +148,6 @@ Not supporting True Colour:
 
 * mutt - http://dev.mutt.org/trac/ticket/3674
 * neomutt - https://github.com/neomutt/neomutt/issues/85
-* mc - http://www.midnight-commander.org/ticket/3145#comment:1 - demo patches attached
 * ncurses library - https://lists.gnu.org/archive/html/bug-ncurses/2013-10/msg00007.html
 * termbox library - https://github.com/nsf/termbox/issues/37
 * mcabber - https://bitbucket.org/McKael/mcabber-crew/issue/126/support-for-true-color-16-millions-colors
