@@ -65,6 +65,7 @@ Now **supporting** truecolour
 * [qterminal](https://github.com/qterminal/qterminal) [delimeter: semicolon] - https://github.com/qterminal/qterminal/issues/78
 * [cool-retro-term](https://github.com/Swordfish90/cool-retro-term) [delimeter: semicolon]
 * [Black Screen](https://github.com/shockone/black-screen) [delimeter: semicolon] - crossplatform, HTML/CSS/JS-based
+* [Hyper.app](https://hyper.is/) [delimeter: semicolon] - crossplatform, HTML/CSS/JS-based (Electron)
 * [Tera Term](http://en.sourceforge.jp/projects/ttssh2/) [delimeter: colon, semicolon] - **Windows platform**
 * [ConEmu](https://github.com/Maximus5/ConEmu) [delimeter: semicolon] - **Windows platform**
 * [FinalTerm](http://finalterm.org/) [delimeter: semicolon] - [abandoned](http://worldwidemann.com/finally-terminated/), iTerm2 [borrowing it's ideas and features](http://iterm2.com/shell_integration.html).
