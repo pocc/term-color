@@ -74,7 +74,7 @@ Now **supporting** truecolour
     * **libvte**-based [Gnome Terminal](https://help.gnome.org/users/gnome-terminal/stable/)
     * **libvte**-based [sakura](http://www.pleyades.net/david/projects/sakura)
     * **libvte**-based [xfce4-terminal](http://docs.xfce.org/apps/terminal/start) - since [0.6.90](https://github.com/xfce-mirror/xfce4-terminal/releases/tag/xfce4-terminal-0.6.90) release, if compiled with GTK+3
-    * **libvte**-based [Terminator](http://gnometerminator.blogspot.com/p/introduction.html) - use [GTK+3](https://code.launchpad.net/~gnome-terminator/terminator/gtk3) version.
+    * **libvte**-based [Terminator](http://gnometerminator.blogspot.com/p/introduction.html) - since [0.90](https://launchpad.net/terminator/+announcement/14358) release, if compiled with GTK+3
     * **libvte**-based [Terminix](https://github.com/gnunn1/terminix) - written in D. Similar user interface as for Terminator.
     * **libvte**-based [Lilyterm](http://lilyterm.luna.com.tw/) - since commit https://github.com/Tetralet/LilyTerm/commit/72536e7ba448ad9ef1126ce45fbde3a3407a271b
     * **libvte**-based [ROXTerm](http://roxterm.sourceforge.net/)
