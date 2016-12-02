@@ -71,6 +71,7 @@ Now **supporting** truecolour
 * [FinalTerm](http://finalterm.org/) [delimeter: semicolon] - [abandoned](http://worldwidemann.com/finally-terminated/), iTerm2 [borrowing it's ideas and features](http://iterm2.com/shell_integration.html).
 * [MacTerm](https://github.com/kmgrant/macterm) [delimeter: semicolon] - **Mac OS X platform**
 * [mintty](https://mintty.github.io/) [delimeter: semicolon] **Cygwin and MSYS/MSYS2** since commit https://github.com/mintty/mintty/commit/43f0ed8a46c6549cb9a3ea27abc057b5abe13bdb (2.0.1 release) - **Windows platform**
+* Windows 10 bash console, since [Windows Insiders build 14931](https://blogs.msdn.microsoft.com/commandline/2016/09/22/24-bit-color-in-the-windows-console/)
 * all [libvte](http://ftp.gnome.org/pub/GNOME/sources/vte/) based terminals (since 0.36 version) [delimeter: colon, semilocon] -  https://bugzilla.gnome.org/show_bug.cgi?id=704449
     * **libvte**-based [Gnome Terminal](https://help.gnome.org/users/gnome-terminal/stable/)
     * **libvte**-based [sakura](http://www.pleyades.net/david/projects/sakura)
@@ -99,7 +100,7 @@ Parsing ANSI colour sequences, but approximating them to 256 palette
 * xterm (though doing it wrong: "it uses nearest colour in RGB colour space, with a usualfalse assumption about orthogonal axes")
 * [urxvt aka rxvt-unicode](http://software.schmorp.de/pkg/rxvt-unicode.html) -  since [Revision 1.570](http://cvs.schmorp.de/rxvt-unicode/src/command.C?revision=1.570&view=markup&sortby=log&sortdir=down) http://lists.schmorp.de/pipermail/rxvt-unicode/2016q2/002261.html
 * linux console (since v3.16): https://github.com/torvalds/linux/commit/cec5b2a97a11ade56a701e83044d0a2a984c67b4
-* Windows 10 bash console, since build 14352, approximates 256 and 16M colors to 16fg/16bg https://github.com/Microsoft/BashOnWindows/issues/76
+
 
 Note about colour differences: a) RGB axes are not orthogonal, so you cannot use sqrt(R^2+G^2+B^2) formula, b) for colour differences there is more correct (but much more complex) [CIEDE2000](http://en.wikipedia.org/wiki/Color_difference#CIEDE2000) formula (which may easily blow up performance if used blindly) [2].
 
