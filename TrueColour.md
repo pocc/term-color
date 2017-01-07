@@ -63,7 +63,8 @@ Now **supporting** truecolour
 * [konsole](http://kde.org/applications/system/konsole/) [delimeter: colon, semicolon] - https://bugs.kde.org/show_bug.cgi?id=107487
 * [iterm2](http://www.iterm2.com/) [delimeter: colon, semicolon] - since v3 version
 * [qterminal](https://github.com/qterminal/qterminal) [delimeter: semicolon] - https://github.com/qterminal/qterminal/issues/78
-* [alacritty](https://github.com/jwilm/alacritty) [delimeter: semicolon] - written in Rust.
+* [alacritty](https://github.com/jwilm/alacritty) [delimeter: semicolon] - written in Rust
+* [kitty](https://github.com/kovidgoyal/kitty) [delimeter: semicolon] - uses OpenGL
 * [cool-retro-term](https://github.com/Swordfish90/cool-retro-term) [delimeter: semicolon]
 * [Black Screen](https://github.com/shockone/black-screen) [delimeter: semicolon] - crossplatform, HTML/CSS/JS-based
 * [Hyper.app](https://hyper.is/) [delimeter: semicolon] - crossplatform, HTML/CSS/JS-based (Electron)
