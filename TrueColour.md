@@ -63,6 +63,7 @@ Now **supporting** truecolour
 * [konsole](http://kde.org/applications/system/konsole/) [delimeter: colon, semicolon] - https://bugs.kde.org/show_bug.cgi?id=107487
 * [iterm2](http://www.iterm2.com/) [delimeter: colon, semicolon] - since v3 version
 * [qterminal](https://github.com/qterminal/qterminal) [delimeter: semicolon] - https://github.com/qterminal/qterminal/issues/78
+* [alacritty](https://github.com/jwilm/alacritty) [delimeter: semicolon] - written in Rust.
 * [cool-retro-term](https://github.com/Swordfish90/cool-retro-term) [delimeter: semicolon]
 * [Black Screen](https://github.com/shockone/black-screen) [delimeter: semicolon] - crossplatform, HTML/CSS/JS-based
 * [Hyper.app](https://hyper.is/) [delimeter: semicolon] - crossplatform, HTML/CSS/JS-based (Electron)
@@ -123,6 +124,7 @@ Terminal multiplexers
 * [aterm](http://www.afterstep.org/aterm.php) (looks abandoned) - https://sourceforge.net/p/aterm/feature-requests/23/
 * [fbcon](https://www.kernel.org/doc/Documentation/fb/fbcon.txt) (from linux kernel) - https://bugzilla.kernel.org/show_bug.cgi?id=79551
 * FreeBSD console - https://bugs.freebsd.org/bugzilla/show_bug.cgi?id=191652
+* [yaft](https://github.com/uobikiemukot/yaft) framebuffer terminal - https://github.com/uobikiemukot/yaft/issues/12
 * [PuTTY](http://www.chiark.greenend.org.uk/~sgtatham/putty/) (patched version [3] {xterm-like approximation to 256 colors} and [4] {real true colors} available) - **Windows platform**
 * libvte and GTK2 - based:
      * **libvte**-based [GTKTerm2](http://gtkterm.feige.net/)
