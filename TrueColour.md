@@ -56,11 +56,9 @@ See the discussion thread here: https://lists.gnu.org/archive/html/bug-ncurses/2
 Detection
 =========
 
-There's no reliable way, and ncurses/terminfo's maintainer expressed he has no intent on introducing support. S-Lang author added a check for $COLORTERM containing either "truecolor" or "24bit" (case sensitive). In turn, VTE, Konsole and iTerm2 set this variable to "truecolor" (it's been there in VTE for a while, it's relatively new and maybe still git-only (I haven't checked) in Konsole and iTerm2).
+There's no reliable way, and ncurses/terminfo's maintainer expressed he has no intent on introducing support. S-Lang author added a check for $COLORTERM containing either "truecolor" or "24bit" (case sensitive). In turn, [VTE](https://bugzilla.gnome.org/show_bug.cgi?id=754521), [Konsole](https://bugs.kde.org/show_bug.cgi?id=371919) and [iTerm2](https://gitlab.com/gnachman/iterm2/issues/5294) set this variable to "truecolor" (it's been there in VTE for a while, it's relatively new and maybe still git-only in Konsole and iTerm2).
 
-This is obviously not a reliable method, and is not forwarded via sudo, ssh etc. However, whenever it errs, it errs on the safe side: does not advertise support whereas it's actually supported. I don't think there's a way it could err on the other side, I'm not sure though.
-
-App developers can freely choose to check for this same variable, or introduce their own method (e.g. an option in their config file), whichever matches better the overall design of the given app. I personally recommend checking $COLORTERM since that would lead to a more unique desktop experience where the user has to set one variable only and it takes effect across all the apps, rather than something separately for each app.
+This is obviously not a reliable method, and is not forwarded via sudo, ssh etc. However, whenever it errs, it errs on the safe side: does not advertise support whereas it's actually supported. App developers can freely choose to check for this same variable, or introduce their own method (e.g. an option in their config file), whichever matches better the overall design of the given app. Checking $COLORTERM is recommended though, since that would lead to a more unique desktop experience where the user has to set one variable only and it takes effect across all the apps, rather than something separately for each app.
 
 Here are terminals discussions:
 ==============================
