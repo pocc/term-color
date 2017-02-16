@@ -169,3 +169,4 @@ Not supporting True Colour:
 * mcabber - https://bitbucket.org/McKael/mcabber-crew/issue/126/support-for-true-color-16-millions-colors
 * emacs - http://emacs.1067599.n5.nabble.com/RFC-Add-tty-True-Color-support-td299962.html and http://emacs.1067599.n5.nabble.com/bug-20243-True-color-terminal-support-tc354040.html
 * tig - https://github.com/jonas/tig/issues/227
+* joe - https://sourceforge.net/p/joe-editor/patches/116/
