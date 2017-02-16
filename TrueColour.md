@@ -53,6 +53,15 @@ According to Wikipedia[1], this is only supported by xterm and konsole.
 Currently, there is no support for the 24-bit colour descriptions in the terminfo/termcap database and utilites.
 See the discussion thread here: https://lists.gnu.org/archive/html/bug-ncurses/2013-10/msg00007.html
 
+Detection
+=========
+
+There's no reliable way, and ncurses/terminfo's maintainer expressed he has no intent on introducing support. S-Lang author added a check for $COLORTERM containing either "truecolor" or "24bit" (case sensitive). In turn, VTE, Konsole and iTerm2 set this variable to "truecolor" (it's been there in VTE for a while, it's relatively new and maybe still git-only (I haven't checked) in Konsole and iTerm2).
+
+This is obviously not a reliable method, and is not forwarded via sudo, ssh etc. However, whenever it errs, it errs on the safe side: does not advertise support whereas it's actually supported. I don't think there's a way it could err on the other side, I'm not sure though.
+
+App developers can freely choose to check for this same variable, or introduce their own method (e.g. an option in their config file), whichever matches better the overall design of the given app. I personally recommend checking $COLORTERM since that would lead to a more unique desktop experience where the user has to set one variable only and it takes effect across all the apps, rather than something separately for each app.
+
 Here are terminals discussions:
 ==============================
 
