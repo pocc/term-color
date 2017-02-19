@@ -151,6 +151,7 @@ Supporting True Colour:
 * [irssi](https://github.com/irssi/irssi) - since [PR #48](https://github.com/irssi/irssi/pull/48)
 * [neovim](https://github.com/neovim/neovim) - since commit [8dd415e887923f99ab5daaeba9f0303e173dd1aa](https://github.com/neovim/neovim/commit/8dd415e887923f99ab5daaeba9f0303e173dd1aa);  need to set [termguicolors](https://neovim.io/doc/user/options.html#%27termguicolors) to enable true color.
 * [vim](https://github.com/vim/vim) - (from 7.4.1770) since commit [8a633e3427b47286869aa4b96f2bfc1fe65b25cd](https://github.com/vim/vim/commit/8a633e3427b47286869aa4b96f2bfc1fe65b25cd); need to set [termguicolors](https://github.com/vim/vim/blob/master/runtime/doc/version8.txt#L202) to enable true color.
+* [emacs](https://www.gnu.org/software/emacs/) - since commit [e463e57...](http://git.savannah.gnu.org/cgit/emacs.git/commit/?id=e463e57), require custom terminfo
 * [elinks](http://repo.or.cz/w/elinks.git) - [configure.in:1410](http://repo.or.cz/w/elinks.git/blob/HEAD:/configure.in#l1410) (./configure --enable-true-color)
 * [s-lang](http://lists.jedsoft.org/lists/slang-users/2015/0000020.html) library -  (since pre2.3.1-35, for 64bit systems)
 * [timg](https://github.com/hzeller/timg) - Terminal Image Viewer
@@ -165,6 +166,5 @@ Not supporting True Colour:
 * ncurses library - https://lists.gnu.org/archive/html/bug-ncurses/2013-10/msg00007.html
 * termbox library - https://github.com/nsf/termbox/issues/37
 * mcabber - https://bitbucket.org/McKael/mcabber-crew/issue/126/support-for-true-color-16-millions-colors
-* emacs - http://emacs.1067599.n5.nabble.com/RFC-Add-tty-True-Color-support-td299962.html and http://emacs.1067599.n5.nabble.com/bug-20243-True-color-terminal-support-tc354040.html
 * tig - https://github.com/jonas/tig/issues/227
 * joe - https://sourceforge.net/p/joe-editor/patches/116/
